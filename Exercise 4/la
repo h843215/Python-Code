@@ -1,0 +1,10 @@
+lst = [[1, 2, 3], [2, 4, 6], [3, 6, 9], [1, 1, 1]]
+
+result = 0
+
+def average(m):
+    result = sum(m)
+    result = float(result)
+    #return result/len(m)
+
+print average(lst)
